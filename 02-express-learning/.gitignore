@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+.idea/
+
+# Temporary files
+tmp/
+temp/
+
+# Build / production output
+dist/
+build/
+out/
+
+# Coverage
+coverage/
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Local database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Environment-specific local files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
